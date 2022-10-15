@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC002,Chrome 106.0.0.0,,,2022-10-15 15:16:22,2022-10-15 15:17:36,1m - 13.497s,FAILED
+,,,,,,,
+Test Cases/Login/Login,Chrome 106.0.0.0,,,2022-10-15 15:16:23,2022-10-15 15:16:58,35.676s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 106.0.0.0,,,2022-10-15 15:16:23,2022-10-15 15:16:23,0.010s,PASSED
+"openBrowser(""https://dev-company.profesi.io/auth/login"")",Chrome 106.0.0.0,,,2022-10-15 15:16:23,2022-10-15 15:16:34,11.141s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 106.0.0.0,,,2022-10-15 15:16:34,2022-10-15 15:16:34,0.185s,PASSED
+"setText(findTestObject(""Login/Input Email""), email)",Chrome 106.0.0.0,,,2022-10-15 15:16:34,2022-10-15 15:16:35,1.048s,PASSED
+"setText(findTestObject(""Login/Input Password""), password)",Chrome 106.0.0.0,,,2022-10-15 15:16:35,2022-10-15 15:16:36,1.044s,PASSED
+"click(findTestObject(""Login/Remember Me""))",Chrome 106.0.0.0,,,2022-10-15 15:16:36,2022-10-15 15:16:37,0.735s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-15 15:16:37,2022-10-15 15:16:47,10.043s,PASSED
+"click(findTestObject(""Login/Button Login""))",Chrome 106.0.0.0,,,2022-10-15 15:16:47,2022-10-15 15:16:47,0.369s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-15 15:16:47,2022-10-15 15:16:57,10.011s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Profile""), 15)",Chrome 106.0.0.0,,,2022-10-15 15:16:57,2022-10-15 15:16:58,0.333s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 106.0.0.0,,,2022-10-15 15:16:58,2022-10-15 15:16:58,0.456s,PASSED
+,,,,,,,
+Test Cases/Assessment/Create Assessment disable fitur Lakukan Penilaian Diri Sendiri and fitur Aktifkan Fitur Komentar and enable Gunakan Skor dan Kategori,Chrome 106.0.0.0,,,2022-10-15 15:16:58,2022-10-15 15:17:36,37.560s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 106.0.0.0,,,2022-10-15 15:16:58,2022-10-15 15:16:58,0.000s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen""))",Chrome 106.0.0.0,Button Create Assessment,,2022-10-15 15:16:59,2022-10-15 15:16:59,0.522s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""))",Chrome 106.0.0.0,"Input Name Assessment
+",,2022-10-15 15:16:59,2022-10-15 15:17:01,1.427s,PASSED
+"setText(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""), ""Create Assessment disable fitur Lakukan Penilaian Diri Sendiri and fitur Aktifkan Fitur Komentar and enable Gunakan Skor dan Kategori"")",Chrome 106.0.0.0,Name Assessment,,2022-10-15 15:17:01,2022-10-15 15:17:02,1.631s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input""))",Chrome 106.0.0.0,,,2022-10-15 15:17:02,2022-10-15 15:17:03,0.514s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_1""))",Chrome 106.0.0.0,,,2022-10-15 15:17:03,2022-10-15 15:17:03,0.375s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_1""))",Chrome 106.0.0.0,,,2022-10-15 15:17:03,2022-10-15 15:17:04,0.478s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_2""))",Chrome 106.0.0.0,,,2022-10-15 15:17:04,2022-10-15 15:17:04,0.378s,PASSED
+"click(findTestObject(""Assessment Page/Page_Profesi.io/Disable Lakukan Penilaian Diri Sendiri""))",Chrome 106.0.0.0,,,2022-10-15 15:17:04,2022-10-15 15:17:35,31.419s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 106.0.0.0,,,2022-10-15 15:17:35,2022-10-15 15:17:36,0.446s,PASSED

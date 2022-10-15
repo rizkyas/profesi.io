@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create Assessment" time="74.753" tests="2" failures="0" errors="0">
+   <testsuite name="Create Assessment" tests="2" failures="0" errors="0" time="74.753" skipped="0" timestamp="2022-10-15 14:50:32" hostname="rizky - RizkyAS" id="Test Suites/Create Assessment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\profesi.io\\Reports\\20221015_145028\\Create Assessment\\20221015_145029"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\profesi.io\\Reports\\20221015_145028\\Create Assessment\\20221015_145029\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizky - RizkyAS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.14"/>
+         <property name="sessionId" value="1fdaa36b144f316ef6259a472a9f5fd7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="41.241" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2022-10-15 14:50:32 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2022-10-15 14:50:32 - [TEST_STEP][PASSED] - openBrowser("https://dev-company.profesi.io/auth/login"): Browser is opened with url: 'https://dev-company.profesi.io/auth/login'
+
+2022-10-15 14:50:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-15 14:50:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-15 14:50:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-company.profesi.io/auth/login'
+
+2022-10-15 14:50:49 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-10-15 14:50:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-15 14:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input Email"), email): Text 'recruitmentqaprofesi@yopmail.com' is set on object 'Object Repository/Login/Input Email'
+
+2022-10-15 14:50:51 - [MESSAGE][PASSED] - Text 'recruitmentqaprofesi@yopmail.com' is set on object 'Object Repository/Login/Input Email'
+
+2022-10-15 14:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input Password"), password): Text 'Qapr0fes1
+' is set on object 'Object Repository/Login/Input Password'
+
+2022-10-15 14:50:52 - [MESSAGE][PASSED] - Text 'Qapr0fes1
+' is set on object 'Object Repository/Login/Input Password'
+
+2022-10-15 14:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Login/Remember Me")): Object: 'Object Repository/Login/Remember Me' is clicked on
+
+2022-10-15 14:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Remember Me' is clicked on
+
+2022-10-15 14:50:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-10-15 14:51:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-10-15 14:51:02 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button Login")): Object: 'Object Repository/Login/Button Login' is clicked on
+
+2022-10-15 14:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button Login' is clicked on
+
+2022-10-15 14:51:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-10-15 14:51:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-10-15 14:51:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Profile"), 15): Object 'Object Repository/Home Page/Profile' is present
+
+2022-10-15 14:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Profile' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Assessment/Create Assessment" time="32.097" classname="Test Cases/Assessment/Create Assessment" status="PASSED">
+         <system-out><![CDATA[2022-10-15 14:51:13 - [TEST_CASE][PASSED] - Test Cases/Assessment/Create Assessment: Test Cases/Assessment/Create Assessment
+
+2022-10-15 14:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen' is clicked on
+
+2022-10-15 14:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen' is clicked on
+
+2022-10-15 14:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119' is clicked on
+
+2022-10-15 14:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119' is clicked on
+
+2022-10-15 14:51:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119"), "Asesmen Create Test"): Text 'Asesmen Create Test' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'
+
+2022-10-15 14:51:24 - [MESSAGE][PASSED] - Text 'Asesmen Create Test' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'
+
+2022-10-15 14:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/input")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/input' is clicked on
+
+2022-10-15 14:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/input' is clicked on
+
+2022-10-15 14:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/span_1")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_1' is clicked on
+
+2022-10-15 14:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_1' is clicked on
+
+2022-10-15 14:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/input_1")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/input_1' is clicked on
+
+2022-10-15 14:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/input_1' is clicked on
+
+2022-10-15 14:51:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/span_2")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_2' is clicked on
+
+2022-10-15 14:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_2' is clicked on
+
+2022-10-15 14:51:26 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Disable Aktifkan Fitur Komentar")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Disable Aktifkan Fitur Komentar' is clicked on
+
+2022-10-15 14:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Disable Aktifkan Fitur Komentar' is clicked on
+
+2022-10-15 14:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Disable Gunakan Skor dan Kategori Kesesuaian Kompetensi")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Disable Gunakan Skor dan Kategori Kesesuaian Kompetensi' is clicked on
+
+2022-10-15 14:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Disable Gunakan Skor dan Kategori Kesesuaian Kompetensi' is clicked on
+
+2022-10-15 14:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan"), "SDM"): Text 'SDM' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'
+
+2022-10-15 14:51:29 - [MESSAGE][PASSED] - Text 'SDM' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'
+
+2022-10-15 14:51:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'
+
+2022-10-15 14:51:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'
+
+2022-10-15 14:51:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Pegawai"), "Cri"): Text 'Cri' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Pegawai'
+
+2022-10-15 14:51:31 - [MESSAGE][PASSED] - Text 'Cri' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Pegawai'
+
+2022-10-15 14:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/div_Kepala Divisi SDM  Cristiano Ronaldo   _a7a188")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/div_Kepala Divisi SDM  Cristiano Ronaldo   _a7a188' is clicked on
+
+2022-10-15 14:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/div_Kepala Divisi SDM  Cristiano Ronaldo   _a7a188' is clicked on
+
+2022-10-15 14:51:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/button_Tambah")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/button_Tambah' is clicked on
+
+2022-10-15 14:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/button_Tambah' is clicked on
+
+2022-10-15 14:51:32 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Button Atasan"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Atasan' is clicked on
+
+2022-10-15 14:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Atasan' is clicked on
+
+2022-10-15 14:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Click Marc Marquez"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Marc Marquez' is clicked on
+
+2022-10-15 14:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Marc Marquez' is clicked on
+
+2022-10-15 14:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Rekan Kerja")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Rekan Kerja' is clicked on
+
+2022-10-15 14:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Rekan Kerja' is clicked on
+
+2022-10-15 14:51:35 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Click Lionel Mesi")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Lionel Mesi' is clicked on
+
+2022-10-15 14:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Lionel Mesi' is clicked on
+
+2022-10-15 14:51:35 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Bawahan"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Bawahan' is clicked on
+
+2022-10-15 14:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Bawahan' is clicked on
+
+2022-10-15 14:51:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-10-15 14:51:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-15 14:51:41 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Click Neymar Jr")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Neymar Jr' is clicked on
+
+2022-10-15 14:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Neymar Jr' is clicked on
+
+2022-10-15 14:51:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-15 14:51:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-15 14:51:44 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Button Tambah Asesi"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Tambah Asesi' is clicked on
+
+2022-10-15 14:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Tambah Asesi' is clicked on
+
+2022-10-15 14:51:45 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Button Draft"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Draft' is clicked on
+
+2022-10-15 14:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Draft' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-15 14:50:32 - [TEST_SUITE][PASSED] - Create Assessment: Test Cases/Assessment/Create Assessment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

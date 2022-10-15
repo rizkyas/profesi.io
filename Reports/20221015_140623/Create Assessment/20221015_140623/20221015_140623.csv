@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Assessment,Chrome 106.0.0.0,,,2022-10-15 14:06:27,2022-10-15 14:07:28,1m - 1.288s,FAILED
+,,,,,,,
+Test Cases/Login/Login,Chrome 106.0.0.0,,,2022-10-15 14:06:27,2022-10-15 14:07:09,42.085s,PASSED
+"openBrowser(""https://dev-company.profesi.io/auth/login"")",Chrome 106.0.0.0,,,2022-10-15 14:06:27,2022-10-15 14:06:45,17.138s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 106.0.0.0,,,2022-10-15 14:06:45,2022-10-15 14:06:45,0.236s,PASSED
+"setText(findTestObject(""Login/Input Email""), email)",Chrome 106.0.0.0,,,2022-10-15 14:06:45,2022-10-15 14:06:46,1.415s,PASSED
+"setText(findTestObject(""Login/Input Password""), password)",Chrome 106.0.0.0,,,2022-10-15 14:06:46,2022-10-15 14:06:47,1.132s,PASSED
+"click(findTestObject(""Login/Remember Me""))",Chrome 106.0.0.0,,,2022-10-15 14:06:47,2022-10-15 14:06:48,0.775s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-15 14:06:48,2022-10-15 14:06:58,10.051s,PASSED
+"click(findTestObject(""Login/Button Login""))",Chrome 106.0.0.0,,,2022-10-15 14:06:58,2022-10-15 14:06:59,0.457s,PASSED
+delay(10),Chrome 106.0.0.0,,,2022-10-15 14:06:59,2022-10-15 14:07:09,10.020s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Profile""), 15)",Chrome 106.0.0.0,,,2022-10-15 14:07:09,2022-10-15 14:07:09,0.361s,PASSED
+,,,,,,,
+Test Cases/Assessment/Create Assessment,Chrome 106.0.0.0,,,2022-10-15 14:07:09,2022-10-15 14:07:28,18.858s,FAILED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen""))",Chrome 106.0.0.0,Button Create Assessment,,2022-10-15 14:07:10,2022-10-15 14:07:10,0.451s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""))",Chrome 106.0.0.0,"Input Name Assessment
+",,2022-10-15 14:07:10,2022-10-15 14:07:12,1.691s,PASSED
+"setText(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""), ""Asesmen Create Test"")",Chrome 106.0.0.0,Name Assessment,,2022-10-15 14:07:12,2022-10-15 14:07:17,4.916s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input""))",Chrome 106.0.0.0,,,2022-10-15 14:07:17,2022-10-15 14:07:18,1.095s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_1""))",Chrome 106.0.0.0,,,2022-10-15 14:07:18,2022-10-15 14:07:18,0.406s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_1""))",Chrome 106.0.0.0,,,2022-10-15 14:07:18,2022-10-15 14:07:19,0.520s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_2""))",Chrome 106.0.0.0,,,2022-10-15 14:07:19,2022-10-15 14:07:19,0.418s,PASSED
+"setText(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan""), ""SDM"")",Chrome 106.0.0.0,,,2022-10-15 14:07:19,2022-10-15 14:07:20,0.764s,PASSED
+"sendKeys(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan""), Keys.chord(ENTER))",Chrome 106.0.0.0,,,2022-10-15 14:07:20,2022-10-15 14:07:21,0.714s,PASSED
+"setText(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Pegawai""), ""Cri"")",Chrome 106.0.0.0,Search Employee SDM,,2022-10-15 14:07:21,2022-10-15 14:07:22,1.224s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/div_Kepala Divisi SDM  Cristiano Ronaldo   _a7a188""))",Chrome 106.0.0.0,Add Asesi,,2022-10-15 14:07:22,2022-10-15 14:07:23,0.749s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/button_Tambah""))",Chrome 106.0.0.0,"Add Asesor
+",,2022-10-15 14:07:23,2022-10-15 14:07:23,0.490s,PASSED
+"click(findTestObject(""Assessment Page/Page_Profesi.io/Button Atasan""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-15 14:07:23,2022-10-15 14:07:24,1.452s,PASSED
+"click(findTestObject(""Assessment Page/Page_Profesi.io/Click Marc Marquez""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-15 14:07:24,2022-10-15 14:07:25,0.494s,PASSED
+"click(findTestObject(""Assessment Page/Page_Profesi.io/Rekan Kerja""))",Chrome 106.0.0.0,,,2022-10-15 14:07:25,2022-10-15 14:07:26,0.838s,PASSED
+"click(findTestObject(""Assessment Page/Page_Profesi.io/Click Lionel Mesi""))",Chrome 106.0.0.0,,,2022-10-15 14:07:26,2022-10-15 14:07:26,0.476s,PASSED
+"click(findTestObject(""Assessment Page/Page_Profesi.io/Bawahan""), STOP_ON_FAILURE)",Chrome 106.0.0.0,Input Search By Name,,2022-10-15 14:07:26,2022-10-15 14:07:27,0.838s,PASSED
+"click(findTestObject(""Assessment Page/Page_Profesi.io/Click Neymar Jr""))",Chrome 106.0.0.0,,,2022-10-15 14:07:27,2022-10-15 14:07:28,0.700s,FAILED
