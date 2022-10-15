@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Assessment,Edge Chromium 106,,,2022-10-15 07:17:38,2022-10-15 07:18:58,1m - 20.397s,FAILED
+,,,,,,,
+Test Cases/Login/Login,Edge Chromium 106,,,2022-10-15 07:17:38,2022-10-15 07:18:46,1m - 7.759s,FAILED
+"openBrowser(""https://dev-company.profesi.io/auth/login"")",Edge Chromium 106,,,2022-10-15 07:17:38,2022-10-15 07:18:19,41.096s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Edge Chromium 106,,,2022-10-15 07:18:19,2022-10-15 07:18:19,0.197s,PASSED
+"setText(findTestObject(""Login/Input Email""), email)",Edge Chromium 106,,,2022-10-15 07:18:19,2022-10-15 07:18:20,0.730s,PASSED
+"setText(findTestObject(""Login/Input Password""), password)",Edge Chromium 106,,,2022-10-15 07:18:20,2022-10-15 07:18:20,0.265s,PASSED
+"click(findTestObject(""Login/Remember Me""))",Edge Chromium 106,,,2022-10-15 07:18:20,2022-10-15 07:18:21,0.188s,PASSED
+delay(10),Edge Chromium 106,,,2022-10-15 07:18:21,2022-10-15 07:18:31,10.037s,PASSED
+"click(findTestObject(""Login/Button Login""))",Edge Chromium 106,,,2022-10-15 07:18:31,2022-10-15 07:18:31,0.135s,PASSED
+delay(3),Edge Chromium 106,,,2022-10-15 07:18:31,2022-10-15 07:18:34,3.009s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Profile""), 10)",Edge Chromium 106,,,2022-10-15 07:18:34,2022-10-15 07:18:46,11.763s,FAILED
+,,,,,,,
+Test Cases/Assessment/Create Assessment,Edge Chromium 106,,,2022-10-15 07:18:46,2022-10-15 07:18:58,12.389s,FAILED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen""))",Edge Chromium 106,Button Create Assessment,,2022-10-15 07:18:46,2022-10-15 07:18:58,12.130s,FAILED

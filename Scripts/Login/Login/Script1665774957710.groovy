@@ -27,7 +27,11 @@ WebUI.setText(findTestObject('Login/Input Password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Login/Remember Me'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Login/Button Login'))
 
-WebUI.verifyElementPresent(findTestObject('Home Page/Profile'), 10)
+WebUI.delay(10)
+
+WebUI.verifyElementPresent(findTestObject('Home Page/Profile'), 5)
 

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Assessment,Chrome 106.0.0.0,,,2022-10-15 06:49:17,2022-10-15 06:51:25,2m - 7.888s,FAILED
+,,,,,,,
+Test Cases/Login/Login,Chrome 106.0.0.0,,,2022-10-15 06:49:18,2022-10-15 06:50:22,1m - 3.850s,FAILED
+"openBrowser(""https://dev-company.profesi.io/auth/login"")",Chrome 106.0.0.0,,,2022-10-15 06:49:19,2022-10-15 06:49:58,39.335s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 106.0.0.0,,,2022-10-15 06:49:58,2022-10-15 06:49:58,0.283s,PASSED
+"setText(findTestObject(""Login/Input Email""), email)",Chrome 106.0.0.0,,,2022-10-15 06:49:58,2022-10-15 06:50:00,1.833s,PASSED
+"setText(findTestObject(""Login/Input Password""), password)",Chrome 106.0.0.0,,,2022-10-15 06:50:00,2022-10-15 06:50:02,1.265s,PASSED
+"click(findTestObject(""Login/Remember Me""))",Chrome 106.0.0.0,,,2022-10-15 06:50:02,2022-10-15 06:50:02,0.953s,PASSED
+"click(findTestObject(""Login/Button Login""))",Chrome 106.0.0.0,,,2022-10-15 06:50:02,2022-10-15 06:50:03,0.611s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-15 06:50:03,2022-10-15 06:50:06,3.124s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Profile""), 10)",Chrome 106.0.0.0,,,2022-10-15 06:50:06,2022-10-15 06:50:22,15.570s,FAILED
+,,,,,,,
+Test Cases/Assessment/Create Assessment,Chrome 106.0.0.0,,,2022-10-15 06:50:22,2022-10-15 06:51:25,1m - 3.462s,FAILED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen""))",Chrome 106.0.0.0,Button Create Assessment,,2022-10-15 06:50:23,2022-10-15 06:50:54,30.922s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""))",Chrome 106.0.0.0,"Input Name Assessment
+",,2022-10-15 06:50:54,2022-10-15 06:51:25,31.749s,FAILED

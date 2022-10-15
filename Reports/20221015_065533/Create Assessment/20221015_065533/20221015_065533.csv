@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Assessment,Chrome 106.0.0.0,,,2022-10-15 06:55:39,2022-10-15 06:57:59,2m - 20.288s,FAILED
+,,,,,,,
+Test Cases/Login/Login,Chrome 106.0.0.0,,,2022-10-15 06:55:39,2022-10-15 06:56:42,1m - 2.284s,FAILED
+"openBrowser(""https://dev-company.profesi.io/auth/login"")",Chrome 106.0.0.0,,,2022-10-15 06:55:40,2022-10-15 06:56:20,40.146s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 106.0.0.0,,,2022-10-15 06:56:20,2022-10-15 06:56:21,0.237s,PASSED
+"setText(findTestObject(""Login/Input Email""), email)",Chrome 106.0.0.0,,,2022-10-15 06:56:21,2022-10-15 06:56:22,1.881s,PASSED
+"setText(findTestObject(""Login/Input Password""), password)",Chrome 106.0.0.0,,,2022-10-15 06:56:22,2022-10-15 06:56:24,1.203s,PASSED
+"click(findTestObject(""Login/Remember Me""))",Chrome 106.0.0.0,,,2022-10-15 06:56:24,2022-10-15 06:56:24,0.803s,PASSED
+"click(findTestObject(""Login/Button Login""))",Chrome 106.0.0.0,,,2022-10-15 06:56:24,2022-10-15 06:56:25,0.594s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-15 06:56:25,2022-10-15 06:56:28,3.071s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Profile""), 10)",Chrome 106.0.0.0,,,2022-10-15 06:56:28,2022-10-15 06:56:42,13.523s,FAILED
+,,,,,,,
+Test Cases/Assessment/Create Assessment,Chrome 106.0.0.0,,,2022-10-15 06:56:42,2022-10-15 06:57:59,1m - 17.401s,FAILED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen""))",Chrome 106.0.0.0,Button Create Assessment,,2022-10-15 06:56:42,2022-10-15 06:57:03,20.791s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""))",Chrome 106.0.0.0,"Input Name Assessment
+",,2022-10-15 06:57:03,2022-10-15 06:57:09,6.008s,PASSED
+"setText(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""), ""Asesmen Create Test"")",Chrome 106.0.0.0,Name Assessment,,2022-10-15 06:57:09,2022-10-15 06:57:24,14.510s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input""))",Chrome 106.0.0.0,,,2022-10-15 06:57:24,2022-10-15 06:57:24,0.775s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_1""))",Chrome 106.0.0.0,,,2022-10-15 06:57:24,2022-10-15 06:57:25,0.563s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_1""))",Chrome 106.0.0.0,,,2022-10-15 06:57:25,2022-10-15 06:57:26,0.533s,PASSED
+"click(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_2""))",Chrome 106.0.0.0,,,2022-10-15 06:57:26,2022-10-15 06:57:26,0.521s,PASSED
+"setText(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""), ""SDM"")",Chrome 106.0.0.0,,,2022-10-15 06:57:26,2022-10-15 06:57:27,0.943s,PASSED
+"sendKeys(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119""), Keys.chord(ENTER))",Chrome 106.0.0.0,,,2022-10-15 06:57:27,2022-10-15 06:57:28,0.541s,PASSED
+"doubleClick(findTestObject(""Object Repository/Assessment Page/Page_Profesi.io/span_Perencanaan SDM""))",Chrome 106.0.0.0,,,2022-10-15 06:57:28,2022-10-15 06:57:59,31.442s,FAILED
