@@ -6,15 +6,15 @@
    <elementGuidId>d519b55a-0482-48ce-ae9c-16fb81d7f656</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btn-add-7933']</value>
+         <key>CSS</key>
+         <value>div:nth-of-type(1) > .item > div:nth-of-type(2) > .btn__container.contained.md.success.w-full</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#btn-add-7933</value>
+         <key>XPATH</key>
+         <value>div:nth-of-type(1) > .item > div:nth-of-type(2) > .btn__container.contained.md.success.w-full</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

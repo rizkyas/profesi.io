@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create Assessment</name>
+   <name>Create Assesment and Publish</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b019936d-bd0a-4cf0-9573-0068e0cf4aab</testCaseGuid>
+   <testCaseGuid>87512292-fd07-4c2e-a346-994b43940c60</testCaseGuid>
 </TestCaseEntity>

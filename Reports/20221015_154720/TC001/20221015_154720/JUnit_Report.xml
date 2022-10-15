@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC001" time="66.775" tests="2" failures="0" errors="0">
+   <testsuite name="TC001" tests="2" failures="0" errors="0" time="66.775" skipped="0" timestamp="2022-10-15 15:47:23" hostname="rizky - RizkyAS" id="Test Suites/TC001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\profesi.io\\Reports\\20221015_154720\\TC001\\20221015_154720"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\profesi.io\\Reports\\20221015_154720\\TC001\\20221015_154720\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rizky\\git\\profesi.io\\Reports\\20221015_154720\\TC001\\20221015_154720\\Screenshots/Test Cases/Login/Login.png, C:\\Users\\rizky\\git\\profesi.io\\Reports\\20221015_154720\\TC001\\20221015_154720\\Screenshots/Test Cases/Assessment/Create Assesment and Publish.png"/>
+         <property name="hostName" value="rizky - RizkyAS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.14"/>
+         <property name="sessionId" value="b33fd17c91c683581471162409baebc7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="38.8" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2022-10-15 15:47:24 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2022-10-15 15:47:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-10-15 15:47:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-10-15 15:47:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-10-15 15:47:24 - [TEST_STEP][PASSED] - openBrowser("https://dev-company.profesi.io/auth/login"): Browser is opened with url: 'https://dev-company.profesi.io/auth/login'
+
+2022-10-15 15:47:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-15 15:47:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-15 15:47:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-company.profesi.io/auth/login'
+
+2022-10-15 15:47:38 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-10-15 15:47:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-15 15:47:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input Email"), email): Text 'recruitmentqaprofesi@yopmail.com' is set on object 'Object Repository/Login/Input Email'
+
+2022-10-15 15:47:39 - [MESSAGE][PASSED] - Text 'recruitmentqaprofesi@yopmail.com' is set on object 'Object Repository/Login/Input Email'
+
+2022-10-15 15:47:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input Password"), password): Text 'Qapr0fes1
+' is set on object 'Object Repository/Login/Input Password'
+
+2022-10-15 15:47:40 - [MESSAGE][PASSED] - Text 'Qapr0fes1
+' is set on object 'Object Repository/Login/Input Password'
+
+2022-10-15 15:47:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/Remember Me")): Object: 'Object Repository/Login/Remember Me' is clicked on
+
+2022-10-15 15:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Remember Me' is clicked on
+
+2022-10-15 15:47:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-10-15 15:47:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-10-15 15:47:51 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button Login")): Object: 'Object Repository/Login/Button Login' is clicked on
+
+2022-10-15 15:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button Login' is clicked on
+
+2022-10-15 15:47:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-10-15 15:48:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Profile"), 15): Object 'Object Repository/Home Page/Profile' is present
+
+2022-10-15 15:48:02 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Profile' is present
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - path = "Screenshots/" + testCaseId + ".png": null
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-10-15 15:48:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\profesi.io\\Reports\\20221015_154720\\TC001\\20221015_154720\\Screenshots/Test Cases/Login/Login.png]]
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - testCaseId: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Assessment/Create Assesment and Publish" time="25.389" classname="Test Cases/Assessment/Create Assesment and Publish" status="PASSED">
+         <system-out><![CDATA[2022-10-15 15:48:02 - [TEST_CASE][PASSED] - Test Cases/Assessment/Create Assesment and Publish: Test Cases/Assessment/Create Assesment and Publish
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-10-15 15:48:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-10-15 15:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen' is clicked on
+
+2022-10-15 15:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_Buat Asesmen' is clicked on
+
+2022-10-15 15:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119' is clicked on
+
+2022-10-15 15:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119' is clicked on
+
+2022-10-15 15:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119"), "Create Assesment with disable fitur Lakukan Penilaian Diri Sendiri and enable fitur Aktifkan Fitur Komentar and Gunakan Skor dan Kategori"): Text 'Create Assesment with disable fitur Lakukan Penilaian Diri Sendiri and enable fitur Aktifkan Fitur Komentar and Gunakan Skor dan Kategori' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'
+
+2022-10-15 15:48:08 - [MESSAGE][PASSED] - Text 'Create Assesment with disable fitur Lakukan Penilaian Diri Sendiri and enable fitur Aktifkan Fitur Komentar and Gunakan Skor dan Kategori' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'
+
+2022-10-15 15:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/input")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/input' is clicked on
+
+2022-10-15 15:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/input' is clicked on
+
+2022-10-15 15:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/span_1")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_1' is clicked on
+
+2022-10-15 15:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_1' is clicked on
+
+2022-10-15 15:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/input_1")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/input_1' is clicked on
+
+2022-10-15 15:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/input_1' is clicked on
+
+2022-10-15 15:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/span_2")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_2' is clicked on
+
+2022-10-15 15:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/span_2' is clicked on
+
+2022-10-15 15:48:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan"), "SDM"): Text 'SDM' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'
+
+2022-10-15 15:48:10 - [MESSAGE][PASSED] - Text 'SDM' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'
+
+2022-10-15 15:48:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'
+
+2022-10-15 15:48:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'
+
+2022-10-15 15:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Pegawai"), "Cri"): Text 'Cri' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Pegawai'
+
+2022-10-15 15:48:12 - [MESSAGE][PASSED] - Text 'Cri' is set on object 'Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Pegawai'
+
+2022-10-15 15:48:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/div_Kepala Divisi SDM  Cristiano Ronaldo   _a7a188")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/div_Kepala Divisi SDM  Cristiano Ronaldo   _a7a188' is clicked on
+
+2022-10-15 15:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/div_Kepala Divisi SDM  Cristiano Ronaldo   _a7a188' is clicked on
+
+2022-10-15 15:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assessment Page/Page_Profesi.io/button_Tambah")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/button_Tambah' is clicked on
+
+2022-10-15 15:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/button_Tambah' is clicked on
+
+2022-10-15 15:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Button Atasan"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Atasan' is clicked on
+
+2022-10-15 15:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Atasan' is clicked on
+
+2022-10-15 15:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Click Marc Marquez"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Marc Marquez' is clicked on
+
+2022-10-15 15:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Marc Marquez' is clicked on
+
+2022-10-15 15:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Rekan Kerja")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Rekan Kerja' is clicked on
+
+2022-10-15 15:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Rekan Kerja' is clicked on
+
+2022-10-15 15:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Click Lionel Mesi")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Lionel Mesi' is clicked on
+
+2022-10-15 15:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Lionel Mesi' is clicked on
+
+2022-10-15 15:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Bawahan"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Bawahan' is clicked on
+
+2022-10-15 15:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Bawahan' is clicked on
+
+2022-10-15 15:48:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-10-15 15:48:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-15 15:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Click Neymar Jr")): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Neymar Jr' is clicked on
+
+2022-10-15 15:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Click Neymar Jr' is clicked on
+
+2022-10-15 15:48:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-15 15:48:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-15 15:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Button Tambah Asesi"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Tambah Asesi' is clicked on
+
+2022-10-15 15:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Tambah Asesi' is clicked on
+
+2022-10-15 15:48:27 - [TEST_STEP][PASSED] - click(findTestObject("Assessment Page/Page_Profesi.io/Button Publikasi"), STOP_ON_FAILURE): Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Publikasi' is clicked on
+
+2022-10-15 15:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Assessment Page/Page_Profesi.io/Button Publikasi' is clicked on
+
+2022-10-15 15:48:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-10-15 15:48:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-10-15 15:48:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2022-10-15 15:48:27 - [TEST_STEP][PASSED] - path = "Screenshots/" + testCaseId + ".png": null
+
+2022-10-15 15:48:27 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-10-15 15:48:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\profesi.io\\Reports\\20221015_154720\\TC001\\20221015_154720\\Screenshots/Test Cases/Assessment/Create Assesment and Publish.png]]
+
+2022-10-15 15:48:28 - [TEST_STEP][PASSED] - testCaseId: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-15 15:47:23 - [TEST_SUITE][PASSED] - TC001: Test Cases/Assessment/Create Assesment and Publish]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -33,5 +33,5 @@ WebUI.click(findTestObject('Login/Button Login'))
 
 WebUI.delay(10)
 
-WebUI.verifyElementPresent(findTestObject('Home Page/Profile'), 5)
+WebUI.verifyElementPresent(findTestObject('Home Page/Profile'), 15)
 

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/in
 
 'Name Assessment'
 WebUI.setText(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'), 
-    'Asesmen Create Test')
+    'Create Assessment disable fitur Lakukan Penilaian Diri Sendiri and fitur Aktifkan Fitur Komentar and enable Gunakan Skor dan Kategori')
 
 WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/input'))
 
@@ -34,6 +34,8 @@ WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/sp
 WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/input_1'))
 
 WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/span_2'))
+
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Disable Lakukan Penilaian Diri Sendiri'))
 
 WebUI.setText(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/Search Daftar Jabatan'), 'SDM')
 
@@ -48,39 +50,25 @@ WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/di
 'Add Asesor\r\n'
 WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/button_Tambah'))
 
-WebUI.rightClick(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/td_Marc Marquez'))
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Button Atasan'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/td_Perencanaan SDM'))
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Click Marc Marquez'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/td_Kepala Bagian Perencanaan SDM'))
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Rekan Kerja'))
 
-'Input Search By Name'
-WebUI.setText(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'), 
-    'Tian')
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Click Lionel Mesi'))
 
-WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/p_Cristiano Ronaldo'))
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Bawahan'), FailureHandling.STOP_ON_FAILURE)
 
-'Input Search Departement SDM'
-WebUI.setText(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'), 
-    'SDM')
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Click Neymar Jr'))
+
+WebUI.delay(3)
 
 'Hit Enter Pencarian SDM'
-WebUI.sendKeys(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Button Tambah Asesi'), FailureHandling.STOP_ON_FAILURE)
 
 'Input Search departement Perencanaan'
-WebUI.setText(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/input_Email_vs-inputx vs-input--input norma_38a119'), 
-    'Perencanaan')
-
-'Choose Neymar Jr'
-WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/p_Neymar Jr'))
-
-'Choose Kyliab Mbappe\r\n'
-WebUI.doubleClick(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/p_Kylian Mbappe'))
-
-'Delete Neymar Jr\r\n'
-WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/svg_Kepala Divisi SDM_feather feather-x w-5 h-5'))
-
-'Delete Kylian Mbappe'
-WebUI.click(findTestObject('Object Repository/Assessment Page/Page_Profesi.io/svg_Kepala Divisi SDM_feather feather-x w-5 h-5'))
+WebUI.click(findTestObject('Assessment Page/Page_Profesi.io/Button Draft'), FailureHandling.STOP_ON_FAILURE)
 

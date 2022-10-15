@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Assesment with disable fitur Lakukan Penilaian Diri Sendiri and enable fitur Aktifkan Fitur Komentar and Gunakan Skor dan Kategori</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18fab02c-c2ff-4724-a92a-a664427a7ab8</testCaseGuid>
+</TestCaseEntity>

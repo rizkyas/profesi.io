@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Create Assessment</name>
+   <name>TC001</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,17 +10,17 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>33cd12cb-7691-478a-a60b-1f57bc5b997f</testSuiteGuid>
+   <testSuiteGuid>afddae3b-402b-4fc9-ac15-8bbff24ab9e9</testSuiteGuid>
    <testCaseLink>
-      <guid>31b86494-a1fb-4dd3-b303-c3847881d856</guid>
+      <guid>d0d36455-5bef-43f3-b001-74a35baea9ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>30777e9b-e63a-4572-840f-457bc078e425</guid>
+      <guid>cdf99867-4c73-47cd-9cd9-c9dedc5ec70b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Assessment/Create Assessment</testCaseId>
+      <testCaseId>Test Cases/Assessment/Create Assesment and Publish</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
